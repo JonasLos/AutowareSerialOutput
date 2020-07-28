@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>mava_interface</name>
+  <version>0.0.1</version>
+  <description>Driver for PCB with MSP432 Mava Innovations TAMU</description>
+
+  <author email="garyservin@gmail.com">Gary Servin</author>
+
+  <maintainer email="Jonaslo96@tamu.edu">Jonas Lossner</maintainer>
+
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>serial</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>autoware_msgs</build_depend>
+  <run_depend>serial</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>autoware_msgs</run_depend>
+
+</package>
